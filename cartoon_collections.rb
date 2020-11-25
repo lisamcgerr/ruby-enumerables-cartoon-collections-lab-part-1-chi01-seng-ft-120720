@@ -1,4 +1,4 @@
-requ
+require 'pry'
 
 def greet_characters(array)
   array.each do |element|
@@ -9,8 +9,8 @@ end
 
 def list_dwarves(array)
   array.each_with_index do |element, index|
-    index = 0 
-    index += 1
+    index = 1 
+  
     puts "#{index}. #{element}"
   end
 end
